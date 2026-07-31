@@ -1,0 +1,37 @@
+RAG -  RAG stands for Retrieval-Augmented Generation.
+
+It is an AI architecture that combines the power of information retrieval with Large Language Models (LLMs) to produce more accurate and up-to-date responses.
+
+How RAG Works:-
+User asks a question
+Example: "What is Snowflake Zero Copy Cloning?"
+Retrieve
+The system searches a knowledge source such as:
+Company documents
+PDFs
+Databases
+SharePoint
+Confluence
+Websites
+Vector databases (Pinecone, FAISS, ChromaDB, Milvus)
+Augment
+The retrieved relevant information is added to the user's prompt.
+Generate
+The LLM (such as GPT) generates an answer based on both:
+its pretrained knowledge, and
+the retrieved documents.
+Simple Architecture
+User Question
+      │
+      ▼
+Retriever
+(Search relevant documents)
+      │
+      ▼
+Relevant Documents
+      │
+      ▼
+LLM (GPT)
+      │
+      ▼
+Final Answer
