@@ -1,5 +1,7 @@
 RAG - Retrieval-Augmented Generation
 IPYNB - .ipynb stands for Interactive Python Notebook (commonly called a Jupyter Notebook).
 LLM - Large Language model
-IDE - Integrated development Evnironment
+IDE - Integrated development Evnironment ( its used write the code and debug the code).
+Python Interpreter - run the code line by line.
+Python Compiler - entire code script run once at a time.
 
